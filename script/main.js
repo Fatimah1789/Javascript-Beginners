@@ -116,3 +116,30 @@ console.log(index3);
 // array are linear and above example is not best use of practice
 
 // ARRAYS ARE MAINLY USED FOR NUMBERS NOT TEXTS
+
+
+// FOR LOOPS: (iterating through something)
+let totalPrice = 50;
+for (let counter = 0; counter < totalPrice; counter++ ) {
+    console.log(counter);
+}
+
+let total = 10;
+for (let counter = 0; counter < total; counter++ ) {
+    console.log(counter);
+}
+
+let price = 5;
+for (let i = 0; i < price; i++) {
+    console.log(i);
+}
+
+let students = ["john", "adam", "valerie", "luke", "dani"];
+for (let counter = 0; counter = students.length; counter++) {
+    console.log(students[counter]);
+}
+
+let confectionary = ["starbusts", "laces", "haribos", "chewits"];
+for (let counter = 0; counter = confectionary.length; counter++) {
+    console.log(confectionary[counter]);
+}
