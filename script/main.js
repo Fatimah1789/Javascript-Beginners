@@ -36,3 +36,59 @@ console.log(msg);
 let result = 10 * (4 + 3) - 1;
 console.log(result);
 
+if (1 == 4) {
+    console.log("Well done");
+}
+
+// == equal to
+// === equal to (triple equals)
+// <= less than or equal to
+// >= greater than or equal to
+// !== not equal to
+
+
+let myAcountBalance = 700;
+let adidasTrainers = 1000.56;
+let coupon = 600;
+
+if (adidasTrainers <= myAcountBalance) {
+    myAcountBalance = myAcountBalance - adidasTrainers;
+    console.log("We just bought dope shoes!");
+    console.log("Accont Balance: " + myAcountBalance);
+} else if (adidasTrainers - coupon <= myAcountBalance) {
+    console.log("We just bought dope shoes!");
+    myAcountBalance = adidasTrainers - coupon;
+    console.log("Accont Balance: " + myAcountBalance);
+} else {
+    console.log("you're too broke for shoes");
+    console.log("Accont Balance: " + myAcountBalance);
+}
+
+if (1===1 && 2===2) {
+    console.log("these are both true");
+}
+
+if(true && true || "fatimah" === "fatimah") {
+    console.log("these are the same");
+}
+
+if (1===3 || "fatimah" === "fatimah") {
+    console.log("one of these are true");
+}
+
+// || this is the OR sign
+// ! is equal to not true
+
+// let cat1 = 10;
+// let cat2 = 45;
+// let cat3 = 3;
+// let cat3Disabled = true;
+
+// if (cat1 > cat2 && cat1 > cat3 && !cat3Disabled) {
+//     console.log("cat 1 is the cutest");
+// } else if (cat2 > cat1 && cat2 > cat3 && !cat3Disabled) {
+//     console.log("cat 2 is the cutest");
+// } else if (cat3 > cat1 && cat3 > cat2 || cat3Disabled ) {
+//     console.log("cat 3 is the cutest");
+// }
+
