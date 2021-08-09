@@ -220,8 +220,71 @@ let printCustomerName = function(first,last) {
 let applyForCreditCard = function(creditScore, soul){
 }
 
-let bankOperations
-bankOperations.push(transaction);
-bankOperations.push(printCustomerName);
-bankOperations.push(applyForCreditCard);
+// let bankOperations
+// bankOperations.push(transaction);
+// bankOperations.push(printCustomerName);
+// bankOperations.push(applyForCreditCard);
+
+//JAVASCRIPT OBJECT
+
+function pupil(first, last, age) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.greetings = function() {
+        return "hi I'm" + this.firstName + "  i am " + this.lastName + " and i'm " + this.age + "years old";
+    }
+}
+
+let p1 = new pupil ("adam", "parker", 10);
+console.log(p1);
+console.log(p1.greetings());
+
+pupil.push (new pupil ("jenny", "adam", 12));
+pupil.push (new pupil ("jenny", "adam", 12));
+pupil.push (new pupil ("jenny", "adam", 12));
+pupil.push (new pupil ("jenny", "adam", 12));
+
+for (let index = 0; index = pupil.length; counter++) {
+        let pupil = pupil[index]
+     console.log(pupil.greetings());
+ }
+
+let pupil0 = {
+    firstName: "John",
+    lastName: "Lou",
+    age: 8,
+    greetings: function() {
+        return "hi I'm" + this.firstName + "  i am " + this.lastName + " and i'm " + this.age + "years old";
+    }
+};
+
+console.log(pupil0.greetings());
+
+// //creates new empty objct
+// let pupil1 = new Object();
+// pupil1.firstName ="Luke";
+// pupil1.lastName ="Adam";
+// pupil1.age =7;
+
+// let pupil2 = {};
+// pupil2.firstName ="Ashton";
+// pupil2.lastName ="Parker";
+// pupil2.age =10;
+
+// let pupil = [];
+// pupil.push(pupil0);
+// pupil.push(pupil1);
+// pupil.push(pupil2);
+
+
+// for (let index = 0; index = pupil.length; counter++) {
+//     console.log(pupil[index]);
+// }
+
+// console.log(pupil.firstName);
+// console.log(pupil.lastName);
+// console.log(pupil["firstName"]); // objects with array
+// console.log(pupil["lastName"]);
+
 
