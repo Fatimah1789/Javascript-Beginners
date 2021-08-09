@@ -144,4 +144,85 @@ for (let counter = 0; counter = confectionary.length; counter++) {
     console.log(confectionary[counter]);
 }*/
 
+// FUNCTIONS:
+
+// let length1 = 15;
+// let width1 = 10;
+// let area1 = length1 * width1;
+
+// let length2 = 22;
+// let width2 = 14;
+// let area2 = length2 * width2;
+
+//console.log(area1);
+//console.log(area2);
+// NOT BEST USE OF PRACTICE
+
+function area(length, width) {
+    return length * width; 
+}
+
+let rectangleArea = []
+rectangleArea.push(area(10,15));
+rectangleArea.push(area(19,45));
+rectangleArea.push(area(100,154));
+console.log(rectangleArea);
+
+
+// function area(length, width) {
+//     return length * width; 
+// }
+
+// let area1 = area(10,15);
+// console.log(area1);
+
+let bankBalance = 700;
+
+function makeTransaction(priceOfProduct) {
+    if (priceOfProduct <= bankBalance) {
+        bankBalance -= priceOfProduct;
+        console.log("purchase successful");
+    } else {
+        console.log("insufficient funds");
+    }
+}
+
+console.log(bankBalance);
+makeTransaction(300.00);
+
+console.log(bankBalance);
+makeTransaction(1.50);
+
+console.log(bankBalance);
+makeTransaction(67.90);
+
+console.log(bankBalance);
+makeTransaction(900.00);
+
+//functions stored in varaiables
+
+let transaction = function(priceOfProduct) {
+    if (priceOfProduct <= bankBalance) {
+        bankBalance -= priceOfProduct;
+        console.log("purchase successful");
+    } else {
+        console.log("insufficient funds");
+    }
+};  
+
+transaction(350);
+
+let printCustomerName = function(first,last) {
+    console.log("First Name:" + first + "Last Name:" + last);
+}
+
+let applyForCreditCard = function(creditScore, soul){
+}
+
+let bankOperations
+bankOperations.push(transaction);
+bankOperations.push(printCustomerName);
+bankOperations.push(applyForCreditCard);
+
+
 
