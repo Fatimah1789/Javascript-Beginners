@@ -16,3 +16,23 @@ let dateOfBirth = "10-05-02";
 
 //let welcomeMessage = " welcome " + firstName + " " + lastName + ". Happy " + age + "th birthday! ";
 //console.log(welcomeMessage);
+
+let sum = 20 + 15;
+console.log(sum);
+
+let sub = 20 - 10;
+console.log(sub);
+
+let mul = 3 * 3;
+console.log(mul);
+
+let div = 10 / 2;
+console.log(div);
+
+let mod = 10 % 3;
+let msg = "10 / 3 = 3 remainder of " + mod;
+console.log(msg);
+
+let result = 10 * (4 + 3) - 1;
+console.log(result);
+
