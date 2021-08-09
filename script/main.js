@@ -118,7 +118,7 @@ console.log(index3);
 // ARRAYS ARE MAINLY USED FOR NUMBERS NOT TEXTS
 
 
-//FOR LOOPS: (iterating through something)
+/*FOR LOOPS: (iterating through something)
 let totalPrice = 50;
 for (let counter = 0; counter < totalPrice; counter++ ) {
     console.log(counter);
@@ -142,4 +142,4 @@ for (let counter = 0; counter = students.length; counter++) {
 let confectionary = ["starbusts", "laces", "haribos", "chewits"];
 for (let counter = 0; counter = confectionary.length; counter++) {
     console.log(confectionary[counter]);
-}
+}*/
