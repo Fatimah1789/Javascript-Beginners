@@ -92,3 +92,27 @@ if (1===3 || "fatimah" === "fatimah") {
 //     console.log("cat 3 is the cutest");
 // }
 
+//let students = ["timmy", "Adam", "John"];
+//console.log(students[1]);
+
+let food = ["chocolate", "sweets", "burger", "fruit", "carrots"];
+
+let unhealthyFood = [];
+unhealthyFood.push(food[0]);
+
+// how to remove elements from an array:
+
+let index = unhealthyFood.indexOf("chocolate");
+console.log(unhealthyFood);
+let index2 = food.indexOf("burger");
+let index3 = food.indexOf("fruit");
+if (index > -1) {
+    unhealthyFood = unhealthyFood.splice(index, 1);
+}
+
+console.log(index3);
+
+//splice will start and find the starting index
+// array are linear and above example is not best use of practice
+
+// ARRAYS ARE MAINLY USED FOR NUMBERS NOT TEXTS
