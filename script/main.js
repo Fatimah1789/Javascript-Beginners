@@ -118,8 +118,8 @@ console.log(index3);
 // ARRAYS ARE MAINLY USED FOR NUMBERS NOT TEXTS
 
 
-// FOR LOOPS: (iterating through something)
-/*let totalPrice = 50;
+/*FOR LOOPS: (iterating through something)
+let totalPrice = 50;
 for (let counter = 0; counter < totalPrice; counter++ ) {
     console.log(counter);
 }
@@ -143,6 +143,7 @@ let confectionary = ["starbusts", "laces", "haribos", "chewits"];
 for (let counter = 0; counter = confectionary.length; counter++) {
     console.log(confectionary[counter]);
 }*/
+
 
 // FUNCTIONS:
 
@@ -223,6 +224,4 @@ let bankOperations
 bankOperations.push(transaction);
 bankOperations.push(printCustomerName);
 bankOperations.push(applyForCreditCard);
-
-
 
