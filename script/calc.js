@@ -14,7 +14,7 @@ form.addEventListener('submit', function(event) {
         let result = x / y;
         let percent = result * 100;
         
-        resultField.innerText + "Anwser: " + percent + "%";
+        resultField.innerText = "Anwser: " + percent + "%";
         event.preventDefault(); // allows the anwser to show and does not refresh page
     }  
 });
