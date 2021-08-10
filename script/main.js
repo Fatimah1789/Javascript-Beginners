@@ -227,39 +227,39 @@ let applyForCreditCard = function(creditScore, soul){
 
 //JAVASCRIPT OBJECT
 
-function pupil(first, last, age) {
-    this.firstName = first;
-    this.lastName = last;
-    this.age = age;
-    this.greetings = function() {
-        return "hi I'm" + this.firstName + "  i am " + this.lastName + " and i'm " + this.age + "years old";
-    }
-}
+// function pupil(first, last, age) {
+//     this.firstName = first;
+//     this.lastName = last;
+//     this.age = age;
+//     this.greetings = function() {
+//         return "hi I'm" + this.firstName + "  i am " + this.lastName + " and i'm " + this.age + "years old";
+//     }
+// }
 
-let p1 = new pupil ("adam", "parker", 10);
-console.log(p1);
-console.log(p1.greetings());
+// let p1 = new pupil ("adam", "parker", 10);
+// console.log(p1);
+// console.log(p1.greetings());
 
-pupil.push (new pupil ("jenny", "adam", 12));
-pupil.push (new pupil ("jenny", "adam", 12));
-pupil.push (new pupil ("jenny", "adam", 12));
-pupil.push (new pupil ("jenny", "adam", 12));
+// pupil.push (new pupil ("jenny", "adam", 12));
+// pupil.push (new pupil ("jenny", "adam", 12));
+// pupil.push (new pupil ("jenny", "adam", 12));
+// pupil.push (new pupil ("jenny", "adam", 12));
 
-for (let index = 0; index = pupil.length; counter++) {
-        let pupil = pupil[index]
-     console.log(pupil.greetings());
- }
+// for (let index = 0; index = pupil.length; counter++) {
+//         let pupil = pupil[index]
+//      console.log(pupil.greetings());
+//  }
 
-let pupil0 = {
-    firstName: "John",
-    lastName: "Lou",
-    age: 8,
-    greetings: function() {
-        return "hi I'm" + this.firstName + "  i am " + this.lastName + " and i'm " + this.age + "years old";
-    }
-};
+// let pupil0 = {
+//     firstName: "John",
+//     lastName: "Lou",
+//     age: 8,
+//     greetings: function() {
+//         return "hi I'm" + this.firstName + "  i am " + this.lastName + " and i'm " + this.age + "years old";
+//     }
+// };
 
-console.log(pupil0.greetings());
+// console.log(pupil0.greetings());
 
 // //creates new empty objct
 // let pupil1 = new Object();
