@@ -305,3 +305,5 @@ console.log(storeGetCarLater());
 let theRealGetCarFuntion  =marksGarage.getCar.bind(marksGarage);
 console.log(theRealGetCarFuntion());
 //bind function lets get the this function. Only use it when youre trying to get a specific function or object.
+
+
