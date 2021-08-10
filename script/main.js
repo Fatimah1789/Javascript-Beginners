@@ -287,4 +287,21 @@ let applyForCreditCard = function(creditScore, soul){
 // console.log(pupil["firstName"]); // objects with array
 // console.log(pupil["lastName"]);
 
+// JAVASCRIPT BIND:
+this.car = "mercedes A class";
+let marksGarage = {
+    car: "bmw",
+    getCar: function () {
+        return this.car;
+    }
+};
 
+console.log(marksGarage.getCar());
+
+let storeGetCarLater = marksGarage.getCar;
+console.log(storeGetCarLater());
+
+//let theRealGetCarFuntion = storeGetCarLater.bind(marksGarage);
+let theRealGetCarFuntion  =marksGarage.getCar.bind(marksGarage);
+console.log(theRealGetCarFuntion());
+//bind function lets get the this function. Only use it when youre trying to get a specific function or object.
