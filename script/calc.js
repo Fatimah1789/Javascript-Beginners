@@ -10,5 +10,10 @@ form.addEventListener('submit', function() {
     } else {
         let x = parseFloat(numField1.value);
         let y = parseFloat(numField2.value);
+
+        let result = x / y;
+        let percent = result * 100;
+        
+        resultField.innerText + "Anwser: " + percent + "%";
     }  
 });
