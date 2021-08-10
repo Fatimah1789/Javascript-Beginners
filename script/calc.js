@@ -4,7 +4,7 @@ let numField2 = document.getElementById('numField2');
 let resultField = document.getElementById('resultField');
 let form = document.getElementById("xIsWhatPercentOfY");
 
-form.addEventListener('submit', function() {
+form.addEventListener('submit', function(event) {
     if (!numField1.value || !numField2.value) {
         alert("Please enter values in the fields");
     } else {
@@ -15,5 +15,6 @@ form.addEventListener('submit', function() {
         let percent = result * 100;
         
         resultField.innerText + "Anwser: " + percent + "%";
+        event.preventDefault(); // allows the anwser to show and does not refresh page
     }  
 });
