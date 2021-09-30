@@ -51,6 +51,66 @@ console.log(u);
 let r = 12345;
 console.log(typeof r);
 
+//javascript LOGICAL OPERATORS:
+// ASSIGNMENT OPERATORS:
+let num4 = 10;
+//num4 = num4 + 20; //OR
+num4 += 20;
+console.log(num4);
+
+let num5 = 56/7
+console.log(num5);
+
+//STRING OPERATOR - data that is combined with string:
+let age1 = 45
+let info = "My name is John and I am "+ age1 +"  years old";
+console.log(info);
+
+let count = 57 + " " + 78;
+console.log(count); // this is for space between numbers
+
+//CONDITIONAL STATEMENTS - code is only ran if statement is met (if statements)
+let num9 = 15;
+let num10 = 20;
+
+if (num9 == 20 || num10 < 10) {
+    console.log("hello world");
+} else {
+    console.log("try Again!");
+}
+
+if (num9 == 20 || num10 < 10) {
+    console.log("hello world");
+} else if (num9 > 7){
+    console.log("hi");
+} else{
+    console.log("try Again!");
+}
+
+let gender = "female";
+let age = 19;
+
+if(gender == "female"){
+    if (age >= 18){
+        console.log("You are a " + gender + " and above the age limit");
+    }else {
+        console.log("better luck next time");
+    }
+} else if (gender == "male") {
+    if(age >= 18) {
+        console.log("You are a " + gender + " and above the age limit");
+    } else {
+        console.log("better luck next time");
+    }
+} else {
+    console.log("Undefined gender");
+}
+
+//=== to check if smething is equal to 
+//!== to check if not eqal to
+
+
+
 
 
 
