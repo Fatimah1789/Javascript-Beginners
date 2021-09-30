@@ -109,6 +109,12 @@ if(gender == "female"){
 //=== to check if smething is equal to 
 //!== to check if not eqal to
 
+//ARRAYS - store many pieces of information inside one container:
+let items = ["apple", "bananas", "pears", "orange"];
+
+items[1] = "blueberries" // to reassign new values in array
+console.log(items[1]);
+
 
 
 
