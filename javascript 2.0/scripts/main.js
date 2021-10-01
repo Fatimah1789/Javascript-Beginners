@@ -179,6 +179,19 @@ function calc(){
 }
 console.log(calc());
 
+//FUNCTION SCOPE
+//{ let xy } // undefined variable
+// block scope used with if statemnts
+if (34*2 == 68) {
+    console.log("this is correct");
+}else{
+    console.log("try again!");
+}
+
+// const variable can not be changed later on
+const TOTAL = 20;
+console.log(TOTAL);
+
 
 
 
