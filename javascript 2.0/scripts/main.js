@@ -115,6 +115,24 @@ let items = ["apple", "bananas", "pears", "orange"];
 items[1] = "blueberries" // to reassign new values in array
 console.log(items[1]);
 
+// JAVASCRIPT PROPERTIES & METHODS:
+let product = "football";
+console.log(product.length);
+console.log(product.indexOf("ball"));
+console.log(product.substring(3, 5));
+console.log(product.replace("foot", "base"));
+console.log(product.toUpperCase());
+
+let item = ["apple", "bananas", "pears", "orange"];
+console.log(item.join()); // combine all items in a string
+console.log(item.join(" - "));
+console.log(item.join(", "));
+console.log(item.pop()); // the data its going to remove from the array
+item.pop();
+console.log(item.join(", "));
+
+item.push("blackberries")
+console.log(item.push("blackberries"));
 
 
 
