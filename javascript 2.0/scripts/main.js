@@ -134,6 +134,53 @@ console.log(item.join(", "));
 item.push("blackberries")
 console.log(item.push("blackberries"));
 
+// JAVASCRIPT FUNCTIONS:
+// NAME FUNCTION:
+/*function testExample() {
+   let food = "tomato and basil soup";
+    console.log(food);
+    return food; //stored not outputted
+}
+testExample();
+console.log(testExample());*/
+
+function testExample1(gh) {
+    let foods = "this is not nice" + gh;
+    return foods;
+}
+let foodName = "Daniel"
+console.log(testExample1(foodName));
+
+//ANONYMOUS FUNCTION - ie event listeners:
+let testExample = function(gu) {
+    let food = "tomato and basil soup";
+    return food; 
+}
+let gu = "made by daniel";
+console.log(testExample());
+
+(function() {
+    let productAvailability = "toilet paper";
+    console.log(productAvailability);
+}())
+
+//VARIABLE SCOPES - global and local scopes
+
+let sumTotal = 20; //global scope
+
+function calc(){
+    return sumTotal;
+}
+console.log(calc());
+
+function calc(){
+    let sumTotal = 20; //local scope
+    return sumTotal;
+}
+console.log(calc());
+
+
+
 
 
 
