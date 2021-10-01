@@ -192,6 +192,23 @@ if (34*2 == 68) {
 const TOTAL = 20;
 console.log(TOTAL);
 
+//HOISTING: browser takes all declaration and puts them on top of file so you can acess them at any point 
+console.log(test());
+
+function test() {
+    let t = 10;
+    return t;
+}
+// if you put it hoist this above the same output will be recieved 
+// when you hoist anything the browser will be slowed down
+//to avoid hoisting you put variables inside a function and you used anonymous function 
+let i = function () {
+    let i = 5;
+    return i;
+}
+console.log(i());
+
+
 
 
 
